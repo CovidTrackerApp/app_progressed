@@ -1,0 +1,33 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:1:1-14:12
+	package
+		ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:2:3-48
+		INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:6:22-74
+application
+ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:8:5-13:19
+service#de.julianassmann.flutter_background.IsolateHolderService
+ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:9:9-12:19
+	android:name
+		ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:9:18-54
+uses-sdk
+INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml

@@ -1,0 +1,2 @@
+com/github/yasukotelin/ext_storage/BuildConfig.java
+ com.github.yasukotelin.ext_storage.BuildConfig

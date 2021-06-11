@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.julianassmann.flutter_background" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.WAKE_LOCK" />
+7-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:5:5-67
+7-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:5:22-65
+8    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+8-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:6:5-76
+8-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:6:22-74
+9
+10    <application>
+10-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:8:5-13:19
+11        <service android:name="de.julianassmann.flutter_background.IsolateHolderService" >
+11-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:9:9-12:19
+11-->C:\Flutter_SDK\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_background-1.0.0\android\src\main\AndroidManifest.xml:9:18-54
+12
+13            <!--
+14            android:exported="false"
+15            android:foregroundServiceType="connectedDevice|dataSync"
+16            -->
+17        </service>
+18    </application>
+19
+20</manifest>

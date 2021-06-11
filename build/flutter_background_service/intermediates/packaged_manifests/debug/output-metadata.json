@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "id.flutter.flutter_background_service",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "outputFile": "../../library_manifest/debug/AndroidManifest.xml"
+    }
+  ]
+}

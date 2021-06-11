@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Contact_tracking_KS_Project_Mobile_APP\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Abdul Wasay Sardar\\.gradle\\caches\\transforms-2\\files-2.1\\ac9e4d0f9248c36af758bb5a124032d9\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Abdul Wasay Sardar\\.gradle\\caches\\transforms-2\\files-2.1\\898b824c75f213fbbfaf4e0c4d41532d\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                }
+            ]
+        }
+    ]
+}

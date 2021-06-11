@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\drawable_my_splash.png.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\drawable\\my_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Junaid\\Downloads\\Flutter\\Wassay_Jamshid_zone\\abdulwasaysardar-epidemics-contact-tracing-prediction-and-prevention-leveraging-d7b63f50ec64\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

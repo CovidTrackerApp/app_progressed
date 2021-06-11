@@ -1,0 +1,21 @@
+com/flutterbeacon/FlutterBeaconScanner.java
+ com.flutterbeacon.FlutterBeaconScanner
+ com.flutterbeacon.FlutterBeaconScanner$1
+ com.flutterbeacon.FlutterBeaconScanner$2
+ com.flutterbeacon.FlutterBeaconScanner$3
+ com.flutterbeacon.FlutterBeaconScanner$4
+ com.flutterbeacon.FlutterBeaconScanner$5
+com/flutterbeacon/FlutterBeaconUtils.java
+ com.flutterbeacon.FlutterBeaconUtils
+com/flutterbeacon/BuildConfig.java
+ com.flutterbeacon.BuildConfig
+com/flutterbeacon/FlutterBluetoothStateReceiver.java
+ com.flutterbeacon.FlutterBluetoothStateReceiver
+com/flutterbeacon/FlutterBeaconBroadcast.java
+ com.flutterbeacon.FlutterBeaconBroadcast
+ com.flutterbeacon.FlutterBeaconBroadcast$1
+com/flutterbeacon/FlutterBeaconPlugin.java
+ com.flutterbeacon.FlutterBeaconPlugin
+ com.flutterbeacon.FlutterBeaconPlugin$1
+com/flutterbeacon/FlutterPlatform.java
+ com.flutterbeacon.FlutterPlatform

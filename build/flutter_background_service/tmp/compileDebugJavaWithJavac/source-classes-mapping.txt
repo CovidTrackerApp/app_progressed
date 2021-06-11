@@ -1,0 +1,10 @@
+id/flutter/flutter_background_service/BuildConfig.java
+ id.flutter.flutter_background_service.BuildConfig
+id/flutter/flutter_background_service/BootReceiver.java
+ id.flutter.flutter_background_service.BootReceiver
+id/flutter/flutter_background_service/WatchdogReceiver.java
+ id.flutter.flutter_background_service.WatchdogReceiver
+id/flutter/flutter_background_service/BackgroundService.java
+ id.flutter.flutter_background_service.BackgroundService
+id/flutter/flutter_background_service/FlutterBackgroundServicePlugin.java
+ id.flutter.flutter_background_service.FlutterBackgroundServicePlugin
