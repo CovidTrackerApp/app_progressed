@@ -42,6 +42,19 @@ var dio = Dio();
 int i = 0;
 int y = 0;
 
+Future<void> startService()
+async {
+  if(Platform.isAndroid)
+  {
+    var methodChannel=MethodChannel("com.example.messages");
+    String data=await methodChannel.invokeMethod("startService");
+    debugPrint('*******************************************************************************************');
+    debugPrint(data);
+    debugPrint('*******************************************************************************************');
+
+  }
+}
+
 
 class DaterAdapter extends TypeAdapter<Dater> {
   @override
@@ -98,15 +111,37 @@ void onStart() {
   // bring to foreground
   service.setForegroundMode(true);
   Timer.periodic(Duration(seconds: 1), (timer) async {
-    if (!(await service.isServiceRunning())) timer.cancel();
-    service.setNotificationInfo(
-      title: "My App Service",
-      content: "Updated at ${DateTime.now()}",
-    );
 
-    service.sendData(
-      {"current_date": DateTime.now().toIso8601String()},
-    );
+    // int response_from_server = await manual_check_bt_status();
+    if (!(await service.isServiceRunning())
+  ) timer.cancel();
+    var notifer="You are Safe..";
+    var getUri = Uri.parse('http://52.74.221.135:5000/check_me/furqan');
+    http.MultipartRequest request = new http.MultipartRequest("GET", getUri);
+    http.StreamedResponse response = await request.send();
+    print('Response: ');
+    var responsibility=await response.stream.bytesToString();
+    print(responsibility);
+    print(
+        '********************************************************************************************');
+    if (responsibility=="Yes")
+      {
+        notifer="You are at risk of COVID!!";
+      }
+if (1==1)
+    {
+  service.setNotificationInfo(
+  title: notifer,
+  content: "Updated at ${DateTime.now()}",
+  );
+
+  service.sendData(
+  {"current_date": DateTime.now().toString()},
+  );
+
+
+}
+
   });
 }
 
@@ -160,6 +195,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String g = "";
   String time1 = "";
   List<List<dynamic>> rows = List<List<dynamic>>();
+
   void startServiceInPlatform() async {
     if (Platform.isAndroid) {
       var methodChannel = MethodChannel("com.retroportalstudio.messages");
@@ -169,13 +205,9 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void getPermission() async {
-    //  print("getPermission");
     final PermissionHandler _permissionHandler = PermissionHandler();
     var permissions =
         await _permissionHandler.requestPermissions([PermissionGroup.storage]);
-
-//    Map<PermissionGroup, PermissionStatus> permissions =
-//        await PermissionHandler().requestPermissions([PermissionGroup.storage]);
   }
 
   /////////////////////////////////////////////////////////
@@ -884,7 +916,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         Container(
                           child: ElevatedButton(
                             child: Text(
-                                '            Manage contact tracing           ',
+                                '            Automatic Contact Tracing          ',
                                 style: TextStyle(
                                     color: Colors.black.withOpacity(1))),
                             style: ButtonStyle(
@@ -892,18 +924,33 @@ class _MyHomePageState extends State<MyHomePage> {
                                   Colors.white),
                             ),
                             onPressed: () {
+
+                              startService();
                               var cron = new Cron();
                               cron.schedule(new Schedule.parse('* * * * *'), () async {
+                                AwesomeNotifications().initialize(
+                                  // set the icon to null if you want to use the default app icon
+                                    'resource://drawable/my_splash',
+                                    [NotificationChannel(
+                                        channelKey: 'basic_channel2',
+                                        channelName: 'Basic notifications2',
+                                        channelDescription: 'Notification channel2 for basic tests',
+                                        defaultColor: Colors.red,
+                                        ledColor: Colors.redAccent
+                                    )
+                                    ]
+                                );
                                 print('every minute');
                                 int response_from_server=await manual_check_bt_status();
-                                if (response_from_server==1)
+                                print("Response response: ${response_from_server}");
+                                if (response_from_server==0)
                                 {
                                   AwesomeNotifications().createNotification(
                                       content: NotificationContent(
                                           id: 10,
-                                          channelKey: 'basic_channel',
-                                          title: 'Simple Notification',
-                                          body: 'Simple body'
+                                          channelKey: 'basic_channel2',
+                                          title: 'Alert!',
+                                          body: 'You are at risk of COVID-19'
                                       )
                                   );
                                 }
